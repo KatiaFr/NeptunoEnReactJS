@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+/* estilos y formatos de textos y letras */
+
+p, table, li {
+  font-size:95%;
+}
+
+/* código de la parte superior que entra en el header: */
+
+header, h1 {
+color: rgb(255, 255, 255);
+font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+monospace;
+
+}
+
+
+/* estilo de la tabla: */
+
+table, th, td {
+border: none;
+text-align: center;
+padding: 1px;
+}
+thead {
+background-image: linear-gradient(to top, rgba(253, 91, 172, 0.624), rgba(255, 56, 155, 0.802));    
+}
+
+
+
+.d-flex {
+  margin-left: 70px;
+  padding-right: 2px;
+  margin-top: 20px;
+}
+
+
+.d-flex > details:nth-child(2) > summary:nth-child(1) {
+  margin-top: 15px;
+  border-top-style: solid;
+  padding-bottom: 3px;
+}
+
+
+.flex-wrap {
+  /* margin-top: 2''; */
+  padding-left: 0px;
+  margin-left: 70px;
+  padding-right: 0px;
+  margin-top: 30px;
+}
+
+
+.flex-wrap > details:nth-child(2) > summary:nth-child(1) {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+
+
+/*código del footer:----------------- */
+
+/*línea-borde que divide cada artículo del siguiente */
+article {
+  border-bottom: 2px solid gray;
+  padding: 4%;
+}    
+/*formato de imágenes*/
+
+/*imágenes en general*/
+
+section > img {
+margin: 10cm;
+  width: auto;
+}
+
+#mainPage2 img {
+width: 100%;
+}
+
+/*intentos y pistas */
+#tusIntentos1, #tusIntentos2, #tusIntentos3 {
+color: rgb(181, 41, 10);
+}
+
+#pistas1 {
+color: rgb(61, 167, 0);
+}
+#pistas2 {
+color: rgb(49, 16, 169);
+}
+
+
